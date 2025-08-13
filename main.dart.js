@@ -105533,12 +105533,9 @@ q.k1=s
 $.a8.p2$.push(new A.aU6(q))
 if(!q.dx)return A.bw(B.PF,p,p,p,p,p)
 return A.ru(p,q.id,new A.aN(B.ac,new A.i5(new A.aU7(q),p),p),p,q.k2,p)},
-aoh(a){var s,r,q,p,o,n,m,l
-for(s=this.f,r=s.length,q=0,p=0,o=0;o<r;++o){n=s[o].x
-if(n!==-1)q+=n
-else ++p}if(p>0){m=(a.b-2-q)/p
-for(o=0;n=s.length,o<n;n===r||(0,A.R)(s),++o){l=s[o]
-if(l.x===-1)l.x=m}}},
+aoh(a){var s,r,q,p
+for(s=this.f,r=s.length,q=0;q<r;++q){p=s[q]
+if(p.x===-1)p.x=0/0}},
 ans(){var s,r,q,p,o,n,m,l=this,k=A.at(6),j=l.as
 j===$&&A.a()
 s=l.dy
