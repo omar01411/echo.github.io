@@ -113100,14 +113100,13 @@ if(r!=null)r.J(0,s.gdl())
 s.aM$=null
 s.ai()}}
 A.i_.prototype={
-cJ(){var s,r,q,p=this,o=null,n="#,##0.##",m=p.a,l=p.b,k=A.fr(n).dw(l),j=p.c,i=A.fr(n).dw(j),h=p.d,g=A.fr(n).dw(h),f=p.e,e=A.fr(n).dw(f),d=p.y,c=p.z,b=c==null,a=A.bg9(b?o:c.KE())
-c=b?o:c.KE()
-b=p.ax
-s=p.db
-r=s==null
-q=A.bg9(r?o:s.KE())
-s=r?o:s.KE()
-return A.af(["OrderNumber",m,"TotalWeight",l,"CustomerNote",p.as,"TotalWeightFormat",k,"TotalFinalAmount",j,"TotalFinalAmountFormat",i,"GateTotalWeight",h,"GateTotalWeightFormat",g,"GateTotalFinalAmount",f,"GateTotalFinalAmountFormat",e,"ToatalItemAmount",p.f,"TotalDiscount",p.r,"TaxAmount",p.w,"OrderState",p.x,"StateDescription",d,"DateOrderEnteredFormat",a,"DateOrderEntered",c,"CustomerName",p.Q,"CustomerNumber",p.at,"ShipToName",b,"SalesName",p.ay,"StateName",p.ch,"paymentTerm",p.CW,"truckId",p.cx,"shipToID",p.cy,"Action","","ScheduledShipDateFormat",q,"ScheduledShipDate",s,"SalesNote",p.dx,"EchoOrderNo",p.dy],t.N,t.z)}}
+cJ(){var s,r,q=this,p=null,o="#,##0.##",n=q.b,m=A.fr(o).dw(n),l=q.c,k=A.fr(o).dw(l),j=q.d,i=A.fr(o).dw(j),h=q.e,g=A.fr(o).dw(h),f=q.z,e=f==null,d=A.bg9(e?p:f.KE())
+f=e?p:f.KE()
+e=q.db
+s=e==null
+r=A.bg9(s?p:e.KE())
+e=s?p:e.KE()
+return A.af(["OrderNumber",q.a,"TotalWeight",n,"CustomerNote",q.as,"TotalWeightFormat",m,"TotalFinalAmount",l,"TotalFinalAmountFormat",k,"GateTotalWeight",j,"GateTotalWeightFormat",i,"GateTotalFinalAmount",h,"GateTotalFinalAmountFormat",g,"ToatalItemAmount",q.f,"TotalDiscount",q.r,"TaxAmount",q.w,"OrderState",q.x,"StateDescription",q.y,"DateOrderEnteredFormat",d,"DateOrderEntered",f,"CustomerName",q.Q,"CustomerNumber",q.at,"ShipToName",q.ax,"SalesName",q.ay,"StateName",q.ch,"paymentTerm",q.CW,"truckId",q.cx,"shipToID",q.cy,"Action","","ScheduledShipDateFormat",r,"ScheduledShipDate",e,"SalesNote",q.dx,"EchoOrderNo",q.dy],t.N,t.z)}}
 A.aCl.prototype={
 Da(a){return this.agE(a)},
 agE(a){var s=0,r=A.t(t.hf),q,p=this,o,n,m,l,k,j,i,h
@@ -113121,11 +113120,8 @@ if(a.i(0,"Operation")==="Get All Complete Orders"){o=i?null:J.jv(J.eB(j.b.i(0,"L
 for(i=o.length,n=0;n<o.length;o.length===i||(0,A.J)(o),++n){m=o[n]
 l=B.b.fH(h,new A.aCo(m))
 if(l!==-1){k=h[l]
-m.a=k.a
-m.y=k.y
-m.ax=k.ax
-m.b=k.b
-m.c=k.c}}q=o
+k.b=m.b
+k.c=m.c}}q=h
 s=1
 break}q=h
 s=1
@@ -113719,8 +113715,7 @@ h=A.aq(8)
 s=p.c
 h=A.a_(o,A.T("\u0637\u0644\u0628 \u0631\u0642\u0645  "+s.a,o,o,o,o,o,A.al(o,o,B.cg,o,o,o,o,o,o,o,o,o,o,o,B.P,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),B.f,o,o,new A.ab(B.jw,o,o,h,o,o,o,B.r),o,o,o,o,B.eN,o,o,o)
 r=A.aq(8)
-q=s.y
-j.push(A.aQ(A.as(A.b([h,A.as(A.b([A.a_(o,A.T(q,o,o,o,o,o,A.al(o,o,B.ra,o,o,o,o,o,o,o,o,14,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),B.f,o,o,new A.ab(B.m5,o,o,r,o,o,o,B.r),o,o,o,o,B.eN,o,o,o)],k),B.m,B.j,B.i)],k),B.m,B.bj,B.i),1))
+j.push(A.aQ(A.as(A.b([h,A.as(A.b([A.a_(o,A.T(s.y,o,o,o,o,o,A.al(o,o,B.ra,o,o,o,o,o,o,o,o,14,o,o,o,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),B.f,o,o,new A.ab(B.m5,o,o,r,o,o,o,B.r),o,o,o,o,B.eN,o,o,o)],k),B.m,B.j,B.i)],k),B.m,B.bj,B.i),1))
 j=A.as(j,B.m,B.cW,B.i)
 h=s.c
 h=p.ZK("\u0627\u0644\u0645\u0628\u0644\u063a \u0627\u0644\u0625\u062c\u0645\u0627\u0644\u064a",A.fr(n).dw(h)+" \u062c\u0646\u064a\u0647",!0)
@@ -114299,10 +114294,10 @@ if(o!=null)B.b.d7(o,new A.avF(p,g))}o=p.c
 m=B.b.gX(g)
 f=B.b.gX(g).b
 e=B.b.gX(g)
-d=B.b.gX(g).ax
+d=B.b.gX(g)
 c=B.b.gX(g)
 b=n.length
-p.bF(o.aOa(d,n,!1,B.b.gX(g).dx,c.cy,m.f,e.w,f,b!==0))
+p.bF(o.aOa(d.ax,n,!1,B.b.gX(g).dx,c.cy,m.f,e.w,f,b!==0))
 case 1:return A.q(q,r)}})
 return A.r($async$oL,r)},
 LH(a){this.bF(this.c.Sp(null,a,null))},
