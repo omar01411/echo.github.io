@@ -114072,9 +114072,10 @@ if(s!=null)J.fj(s,new A.aFJ(k))}for(s=k.length,p=0;p<k.length;k.length===s||(0,A
 n=B.b.fo(l,new A.aFK(o))
 if(n!==-1){m=l[n]
 m.c=o.c
-m.cy=o.cy
-m.z=o.z
-m.Q=o.Q}else{o.p1=!0
+m.k2=o.cx
+m.k3=o.cy
+m.k4=o.z
+m.ok=o.Q}else{o.p1=!0
 l.push(o)}}j.b=l}j.c=h?i:a.i(0,"AttachmentID")
 j.d=h?i:a.i(0,"State")
 j.e=h?i:a.i(0,"Message")},
