@@ -114426,8 +114426,11 @@ for(s=J.bb(a),r=0,q=0;s.C();){p=s.gN(s)
 o=p.CW
 if(o>0){n=p.fx
 r+=(n==null?0:n)*o
-p=p.as
-q+=(p==null?0:p)*o}}s=this.c
+n=p.as
+if(n==null)n=0
+p=p.y
+if(p==null)p=1
+q+=n*o*p}}s=this.c
 this.bF(s.aO5(s.w,r,r*0.14,q))},
 gabx(){var s,r,q,p=this,o=J.os(p.c.a,new A.avn(p)),n=A.X(o,o.$ti.h("v.E"))
 o=p.c
